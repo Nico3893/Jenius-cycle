@@ -1,0 +1,42 @@
+.page-card {
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  color: white;
+  text-shadow: 0 0 10px rgba(0,0,0,0.7);
+  font-size: 22px;
+  font-weight: bolder;
+}
+
+.page-card > img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.page-card h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.page-card p {
+  font-size: 12px;
+  opacity: .7;
+  margin: 0;
+}
+
+
+.page-card .page-card-infos {
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: relative;
+}
+
+.page-card-infos .page-card-user {
+  position: absolute;
+  right: 16px;
+  top: -20px;
+  width: 40px;
+}
